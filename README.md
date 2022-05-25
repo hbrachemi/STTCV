@@ -3,9 +3,10 @@
 1. [Abstract](#Abstract)
 2. [Performance Benchmark](#Performance-Benchmark)
 3. [Model Zoo](#Model-Zoo) 
-4. [Usage](#Usage)
-5. [Acknowledgements](#Acknowledgements)
-6. [Contact](#Contact)
+4. [Dependencies](#Dependencies)
+5. [Usage](#Usage)
+6. [Acknowledgements](#Acknowledgements)
+7. [Contact](#Contact)
 
 ## Abstract
 Videos are frozen fragment shots of a past reality. That is no wonder why within the
@@ -93,6 +94,15 @@ extraction process on different nodes, for the sake of computational run time re
 
 ## Model Zoo
 [The features](https://drive.google.com/drive/folders/1j16rD5OdO8lia4uiYu9hPXBuPMH2Pqsc?usp=sharing) exctracted from the different datasets and the weights of the different models can be found [here](https://drive.google.com/drive/folders/1rVdQ5K41EvOPecJg9u6DoyBemWZgl5gt?usp=sharing).
+
+## Dependencies
+Dependencies can also be directly downloaded from the notebooks, packages required are installed using the following commands:
+- !pip install 'git+https://github.com/facebookresearch/fvcore'
+- !pip install simplejson
+- !pip install av
+- !pip install timm==0.4.9
+- !pip install einops
+- !pip install slidingwindow
 
 ## Usage
 Both features extraction and the train/test codes are available in the ipynb notebooks.
