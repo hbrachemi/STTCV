@@ -26,7 +26,8 @@ spatio-temporal aspect of the novel TimeSFormer architecture. Moreover, in order
 full advantage of the tranformer network, we make it possible to parallelize the feature
 extraction process on different nodes, for the sake of computational run time reduction.
 
-  ![](https://github.com/hbrachemi/ResTimeSformer/blob/main/pfe.jpg)
+  ![](https://github.com/hbrachemi/ResTimeSformer/blob/main/Resnet.jpg)
+  ![](https://github.com/hbrachemi/ResTimeSformer/blob/main/TimeSformer_h.jpg)
 
 ## Performance Benchmark
 #### LIVE-VQC
